@@ -17,7 +17,6 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "runn python script"
                 cd myapp
                 python3 hello.py --name=kwazi
                 '''
